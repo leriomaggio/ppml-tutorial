@@ -1,3 +1,8 @@
+  # OSX Rubbish
+.DS_Store
+# any dataset folder is ignored
+*/data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
