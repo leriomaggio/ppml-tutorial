@@ -12,7 +12,7 @@ dependencies:
   - pandas>=1.4.2
   - pip>=22.0.4
   - python>=3.9.12
-  - pytorch=1.8.1
+  - pytorch>=1.8.1
   - scikit-learn=1.0.2
   - scipy=1.8.0
   - setuptools>=62.0.0
@@ -23,5 +23,4 @@ dependencies:
       - blackcellmagic>=0.0.3
       - notexbook-theme>=2.0.1
       - phe==1.4.0
-      - syft==0.5.0
-      - torchcsprng==0.2.1
+      - syft>=0.5.0
