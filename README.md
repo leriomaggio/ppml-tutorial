@@ -102,15 +102,20 @@ Under the following terms:
 
 **No additional restrictions**---You may not apply legal terms or
 technological measures that legally restrict others from doing
-anything the license permits. 
+anything the license permits.
 
 ### Acknowledgment and funding
+
 The material developed in this tutorial has been supported by the University of Bristol, and by the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enchancing Technologies).
+
 Please see this [deck](https://speakerdeck.com/leriomaggio/privacy-enhancing-data-science-ssi-fellowship-2022) to know more about my fellowship plans.
+
+I would also like to thank all the people at [OpenMined](https://www.openmined.org) for all the encouragement and support with the preparation of this tutorial.
+I hope the material in this repository could contribute to raise awareness about all the amazing work on PETs it's being provided to the Open Source and the Python communities.
 
 ![SSI Logo](./logos/ssi_logo_small.png "Software Sustainability Institute")
 ![UoB Logo](./logos/uob_logo_small.png "University of Bristol")
-
+![OpenMined](./logos/openmined_logo_small.png "OpenMined")
 
 ## Contacts 
 
