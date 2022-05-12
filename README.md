@@ -23,16 +23,23 @@ This workshop will be mainly organised in **two parts**. In the first part, we w
 - **Introduction**: Brief Intro to `PPML` and to the workshop ([slides](https://speakerdeck.com/leriomaggio/ppml-pyconde))
 
 - **Part 1**: Strengthening Deep Neural Networks
-    - ML Model vulnerabilities: Adversarial Examples and _inference attack_
-    - DL training with Differential Privacy
+    - Model vulnerabilities: 
+        - Adversarial Examples and `FGSM` (_Fast Gradient Sign Method_) [notebook](./1-model-vulnerabilities/FGSM/FSGM%20Attack.ipynb)
+        - Model _Inference attack_ notebooks: [training](./1-model-vulnerabilities/MIA/MIA%20Training.ipynb) | [reconstruction](./1-model-vulnerabilities/MIA/MIA%20Reconstruction.ipynb)
+    - Deep Learning with Differential Privacy
+        - Model _Inference attack_ with `OPACUS`  notebooks: [training](./2-differential-privacy/MIA%20Training-OPACUS.ipynb) | [reconstruction](./2-differential-privacy/MIA%20Reconstruction-OPACUS.ipynb)
 
 - **Part 2**: Primer on Privacy-Preserving Machine Learning
-    - DL training on (Homomorphically) Encrypted Data
-    - Federated Learning and Intro to Remote Data Science
+    - Introduction to Federated Learning [notebook](./3-federated-learning/1%20Intro%20to%20Federated%20Learning.ipynb)
+    - DL training on (Homomorphically) Encrypted Data [notebook](./3-federated-learning/2%20Homomorphic%20Encryption.ipynb)
+    - OpenMined and PrivateAI series [notebook](./3-federated-learning/3%20OpenMined%20Private%20AI%20Series.ipynb)
+        - Introduction to Remote Data Science [notebooks](./3-federated-learning/duet_iris_classifier/)
+        - SplitNN [notebooks](./3-federated-learning/duet_splitnn/)
 
 _Note_: the material has been updated after the conference, to match the flow of the presentation as delivered during the conference, as well as to incorporate feedbacks received afterwards.
 
-!["PyConDE Logo"](./logos/pyconde_logo_small.png) [Video](https://youtu.be/gYKxQ6T8aH4)
+!["PyConDE Logo"](./logos/pyconde_logo_small.png) 
+[Video](https://youtu.be/gYKxQ6T8aH4) recording of the session presented at **PyCon DE**
 
 ## Get the material
 
