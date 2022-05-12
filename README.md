@@ -117,6 +117,6 @@ I hope the material in this repository could contribute to raise awareness about
 ![UoB Logo](./logos/uob_logo_small.png "University of Bristol")
 ![OpenMined](./logos/openmined_logo_small.png "OpenMined")
 
-## Contacts 
+## Contacts
 
 For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-pyconde/issues) in the repository, or drop me an email @ `valerio.maggio_at_gmail_dot_com`
