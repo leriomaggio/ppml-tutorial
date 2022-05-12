@@ -32,6 +32,8 @@ This workshop will be mainly organised in **two parts**. In the first part, we w
 
 _Note_: the material has been updated after the conference, to match the flow of the presentation as delivered during the conference, as well as to incorporate feedbacks received afterwards.
 
+!["PyConDE Logo"](./logos/pyconde_logo_small.png) [Video](https://youtu.be/gYKxQ6T8aH4)
+
 ## Get the material
 
 Clone the current repository, in order to get the course materials. To do so, once connected to your remote machine (via `SSH`), execute the following instructions:
