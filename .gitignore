@@ -2,6 +2,8 @@
 .DS_Store
 # any dataset folder is ignored
 */data/
+data/
+checkpoints/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
