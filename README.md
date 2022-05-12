@@ -2,6 +2,14 @@
 
 Repository for the [tutorial](https://2022.pycon.de/program/QHJ7SX/) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [PyConDE 2022](https://2022.pycon.de/)
 
+- [Abstract](#abstract)
+    - [Outline](#outline)
+- [Get the Material](#get-the-material)
+    - [Set up the Environment](#set-up-your-environment)
+- [Colophon](#colophon)
+    - [Acknowledgments and Fundings](#acknowledgment-and-funding)
+- [Contacts](#contacts)
+
 ## Abstract
 
 Privacy guarantees are one of the most crucial requirements when it comes to analyse sensitive information. However, data anonymisation techniques alone do not always provide complete privacy protection; moreover Machine Learning (ML) models could also be exploited to _leak_ sensitive data when _attacked_ and no counter-measure is put in place.  
@@ -24,7 +32,7 @@ This workshop will be mainly organised in **two parts**. In the first part, we w
 
 _Note_: the material has been updated after the conference, to match the flow of the presentation as delivered during the conference, as well as to incorporate feedbacks received afterwards.
 
-### Get the material
+## Get the material
 
 Clone the current repository, in order to get the course materials. To do so, once connected to your remote machine (via `SSH`), execute the following instructions:
 
@@ -41,7 +49,7 @@ cd ppml-pyconde
 
 Well done! Now you should do be in the right location. Bear with me another few seconds, following instructions reported below 🙏
 
-### Updating your Environment
+### Set up your Environment
 
 To execute the notebooks in this repository, it is necessary to set up the environment. 
 
@@ -95,6 +103,6 @@ Please see this [deck](https://speakerdeck.com/leriomaggio/privacy-enhancing-dat
 ![UoB Logo](./logos/uob_logo_small.png "University of Bristol")
 
 
-### Contacts 
+## Contacts 
 
 For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-pyconde/issues) in the repository, or drop me an email @ `valerio.maggio_at_gmail_dot_com`
