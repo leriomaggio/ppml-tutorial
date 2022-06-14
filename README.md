@@ -1,6 +1,6 @@
 # PPML: Machine Learning on Data you cannot see
 
-Repository for the [tutorial](https://2022.pycon.de/program/QHJ7SX/) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [PyConDE 2022](https://2022.pycon.de/)
+Repository for the [tutorial](https://www.eventbrite.com/e/the-learning-machine-workshop-tickets-296847798757) on **Privacy-Preserving Machine Learning** (`PPML`) presented as part of the [JGI Data Week 2022](https://www.bristol.ac.uk/golding/get-involved/data-week/)
 
 - [Abstract](#abstract)
     - [Outline](#outline)
@@ -35,11 +35,6 @@ This workshop will be mainly organised in **two parts**. In the first part, we w
     - OpenMined and PrivateAI series [notebook](./3-federated-learning/3%20OpenMined%20Private%20AI%20Series.ipynb)
         - Introduction to Remote Data Science [notebooks](./3-federated-learning/duet_iris_classifier/)
         - SplitNN [notebooks](./3-federated-learning/duet_splitnn/)
-
-_Note_: the material has been updated after the conference, to match the flow of the presentation as delivered during the conference, as well as to incorporate feedbacks received afterwards.
-
-!["PyConDE Logo"](./logos/pyconde_logo_small.png) 
-[Video](https://youtu.be/gYKxQ6T8aH4) recording of the session presented at **PyCon DE**
 
 ## Get the material
 
@@ -114,9 +109,10 @@ I would also like to thank all the people at [OpenMined](https://www.openmined.o
 I hope the material in this repository could contribute to raise awareness about all the amazing work on PETs it's being provided to the Open Source and the Python communities.
 
 ![SSI Logo](./logos/ssi_logo_small.png "Software Sustainability Institute")
+![JGI Logo](./logos/jgi-logo_small.png "Jean Golding Institute of Data Science")
 ![UoB Logo](./logos/uob_logo_small.png "University of Bristol")
 ![OpenMined](./logos/openmined_logo_small.png "OpenMined")
 
 ## Contacts
 
-For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-pyconde/issues) in the repository, or drop me an email @ `valerio.maggio_at_gmail_dot_com`
+For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-tutorial/issues) in the repository, or drop me an email @ `valerio.maggio_at_gmail_dot_com`
