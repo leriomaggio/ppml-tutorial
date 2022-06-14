@@ -1,5 +1,5 @@
 black>=22.3.0
-ipython>=8.2.0
+ipython>=7.34.0
 jupyter>=1.0.0
 matplotlib>=3.5.1
 notebook>=6.4.10
