@@ -30,15 +30,15 @@ This workshop will be mainly organised in **two parts**. In the first part, we w
         - Model _Inference attack_ with `OPACUS`  notebooks: [training](2-mia-differential-privacy/4-MIA-Training-OPACUS.ipynb) | [reconstruction](2-mia-differential-privacy/5-MIA-Reconstruction-OPACUS.ipynb)
 
 - **Part 2**: Primer on Privacy-Preserving Machine Learning
-    - Introduction to Federated Learning [notebook](./3-federated-learning/1%20Intro%20to%20Federated%20Learning.ipynb)
-    - DL training on (Homomorphically) Encrypted Data [notebook](./3-federated-learning/2%20Homomorphic%20Encryption.ipynb)
-    - OpenMined and PrivateAI series [notebook](./3-federated-learning/3%20OpenMined%20Private%20AI%20Series.ipynb)
+    - Introduction to Federated Learning [notebook](./3-federated-learning/1-Intro-Federated-Learning.ipynb)
+    - DL training on (Homomorphically) Encrypted Data [notebook](./3-federated-learning/2-Homomorphic-Encryption.ipynb)
+    - OpenMined and PrivateAI series [notebook](./3-federated-learning/3-OpenMined-private-AI-series.ipynb)
         - Introduction to Remote Data Science [notebooks](./3-federated-learning/duet_iris_classifier/)
         - SplitNN [notebooks](./3-federated-learning/duet_splitnn/)
 
 ## Get the material
 
-Clone the current repository, in order to get the course materials. To do so, once connected to your remote machine (via `SSH`), execute the following instructions:
+Clone the current repository by running the following instructions:
 
 ```bash
 cd $HOME  # This will make sure you'll be in your HOME folder
@@ -51,7 +51,8 @@ git clone https://github.com/leriomaggio/ppml-tutorial.git
 cd ppml-tutorial
 ```
 
-Well done! Now you should do be in the right location. Bear with me another few seconds, following instructions reported below 🙏
+Well done! Now you should do be in the right location. 
+Bear with me for another few seconds, following instructions reported below 🙏
 
 ### Set up your Environment
 
@@ -59,16 +60,18 @@ There are indeed two (possibly _three_) methods that you could use to execute th
 
 The **recommended** method is to setup a new `ppml` Python environment on your local machine.
 
-Please refer to the [`setup.md`](./setup.md) document for a step-by-step guide on how to setup the environment, and check that all is working.
+Please refer to the [`setup.md`](./setup.md) document for a step-by-step guide on how to set up the environment, and to check that all is working.
 
-**Alternartively** you could rely on services such as [MyBinder](https://mybinder.org) or [Google Colab](https://colab.research.google.com) to run the notebooks interactively, and without needing to setup your Python environment locally.
+**Alternartively** you could rely on services such as [MyBinder](https://mybinder.org) or [Google Colab](https://colab.research.google.com) to run the notebooks interactively, and without needing to install anything.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leriomaggio/ppml-tutorial/HEAD) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/leriomaggio/ppml-tutorial/blob/main/index.ipynb)
 
 However, these alternative solutions come with some **caveats and workarounds** that should be considered:
 
-1. MyBinder does not support connection to remote hosts on (not-allowed ports). Therefore, the entire Section 3 on Federated Learning and `syft` does not work.
-2. To use Google Colab it is necessary to have a **Google Account**. Plus, the environment cannot be setup automatically (notebooks contain additional instructions to do so, in case)
+1. MyBinder does not support connection to remote hosts on (not-allowed) network ports. This means that all the examples in Sec. 3 running `syft` and `duet` will **never** work.
+    - I would recommend running those notebooks in `Colab` in case.
+2. To use Google Colab it is necessary to have a **Google Account**. Plus, the environment cannot be setup automatically so sometimes additional deps and packages should be installed first
+    - On this note, please consider that notebooks requiring additional dependencies contain instructions to do so, in their preamble section.
 
 ## Colophon
 
