@@ -20,14 +20,14 @@ This workshop will be mainly organised in **two parts**. In the first part, we w
 
 ### Outline
 
-- **Introduction**: Brief Intro to `PPML` and to the workshop ([slides](https://speakerdeck.com/leriomaggio/ppml-pyconde))
+- **Introduction**: Brief Intro to `PPML` and to the workshop ([slides](https://speakerdeck.com/leriomaggio/ppml-jgi))
 
 - **Part 1**: Strengthening Deep Neural Networks
     - Model vulnerabilities: 
-        - Adversarial Examples and `FGSM` (_Fast Gradient Sign Method_) [notebook](./1-model-vulnerabilities/FGSM/FSGM%20Attack.ipynb)
-        - Model _Inference attack_ notebooks: [training](./1-model-vulnerabilities/MIA/MIA%20Training.ipynb) | [reconstruction](./1-model-vulnerabilities/MIA/MIA%20Reconstruction.ipynb)
+        - Adversarial Examples and `FGSM` (_Fast Gradient Sign Method_) [notebook](1-fast-gradient-sign-method/FSGM Attack.ipynb)
+        - Model _Inference attack_ notebooks: [training](2-mia-differential-privacy/1-MIA-Training.ipynb) | [reconstruction](2-mia-differential-privacy/2-MIA-Reconstruction.ipynb)
     - Deep Learning with Differential Privacy
-        - Model _Inference attack_ with `OPACUS`  notebooks: [training](./2-differential-privacy/MIA%20Training-OPACUS.ipynb) | [reconstruction](./2-differential-privacy/MIA%20Reconstruction-OPACUS.ipynb)
+        - Model _Inference attack_ with `OPACUS`  notebooks: [training](2-mia-differential-privacy/4-MIA-Training-OPACUS.ipynb) | [reconstruction](2-mia-differential-privacy/5-MIA-Reconstruction-OPACUS.ipynb)
 
 - **Part 2**: Primer on Privacy-Preserving Machine Learning
     - Introduction to Federated Learning [notebook](./3-federated-learning/1%20Intro%20to%20Federated%20Learning.ipynb)
@@ -42,28 +42,33 @@ Clone the current repository, in order to get the course materials. To do so, on
 
 ```bash
 cd $HOME  # This will make sure you'll be in your HOME folder
-git clone https://github.com/leriomaggio/ppml-pyconde.git
+git clone https://github.com/leriomaggio/ppml-tutorial.git
 ```
 
-**Note**: This will create a new folder named `ppml-pyconde`. Move into this folder by typing:
+**Note**: This will create a new folder named `ppml-tutorial`. Move into this folder by typing:
 
 ```bash
-cd ppml-pyconde
+cd ppml-tutorial
 ```
 
 Well done! Now you should do be in the right location. Bear with me another few seconds, following instructions reported below 🙏
 
 ### Set up your Environment
 
-To execute the notebooks in this repository, it is necessary to set up the environment. 
+There are indeed two (possibly _three_) methods that you could use to execute the code in the notebooks.
 
-Please refer to the [`Get-Ready.ipynb`](./Get-Ready.ipynb) notebook for a step-by-step guide on how to setup the environment, and check that all is working, and ready to go.
+The **recommended** method is to setup a new `ppml` Python environment on your local machine.
 
-**Note**: You could run this notebook directly in [VSCode](https://vscode.dev), or in your existing Jupyter notebook/lab environment:
+Please refer to the [`setup.md`](./setup.md) document for a step-by-step guide on how to setup the environment, and check that all is working.
 
-```bash
-jupyter notebook Get-Ready.ipynb
-```
+**Alternartively** you could rely on services such as [MyBinder](https://mybinder.org) or [Google Colab](https://colab.research.google.com) to run the notebooks interactively, and without needing to setup your Python environment locally.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leriomaggio/ppml-tutorial/HEAD) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/leriomaggio/ppml-tutorial/blob/main/index.ipynb)
+
+However, these alternative solutions come with some **caveats and workarounds** that should be considered:
+
+1. MyBinder does not support connection to remote hosts on (not-allowed ports). Therefore, the entire Section 3 on Federated Learning and `syft` does not work.
+2. To use Google Colab it is necessary to have a **Google Account**. Plus, the environment cannot be setup automatically (notebooks contain additional instructions to do so, in case)
 
 ## Colophon
 
