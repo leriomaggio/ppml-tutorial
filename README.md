@@ -1,6 +1,6 @@
 # PPML: Machine Learning on Data you cannot see
 
-Repository for the [tutorial](https://www.eventbrite.com/e/the-learning-machine-workshop-tickets-296847798757) on **Privacy-Preserving Machine Learning** (`PPML`) presented as part of the [JGI Data Week 2022](https://www.bristol.ac.uk/golding/get-involved/data-week/)
+Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD8-1) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [Mozilla Festival 2023](https://www.mozillafestival.org/)
 
 - [Abstract](#abstract)
     - [Outline](#outline)
@@ -16,7 +16,7 @@ Privacy guarantees are one of the most crucial requirements when it comes to ana
 
 *Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all those issues, allowing to train machine learning models with full privacy guarantees.
 
-This workshop will be mainly organised in **two parts**. In the first part, we will explore one example of ML model exploitation (i.e. _inference attack_ ) to reconstruct original data from a trained model, and we will then see how **differential privacy** can help us protecting the privacy of our model, with _minimum disruption_ to the original pipeline. In the second part of the workshop, we will examine a more complicated ML scenario to train Deep learning networks on encrypted data, with specialised _distributed federated_ _learning_ strategies. 
+This workshop will be mainly organised in **two parts**. In the first part, we will explore one example of ML model exploitation (i.e. _inference attack_ ) to reconstruct original data from a trained model, and we will then see how **differential privacy** can help us protecting the privacy of our model, with _minimum disruption_ to the original pipeline. In the second part of the workshop, we will examine a more complicated ML scenario to train Deep learning networks on encrypted data, with specialised _distributed federated_ _learning_ strategies.
 
 ### Outline
 
@@ -109,18 +109,16 @@ anything the license permits.
 
 ### Acknowledgment and funding
 
-The material developed in this tutorial has been supported by the University of Bristol, and by the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enchancing Technologies).
+The material developed in this tutorial has been supported by Anaconda, the University of Bristol, and by the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enchancing Technologies).
 
 Please see this [deck](https://speakerdeck.com/leriomaggio/privacy-enhancing-data-science-ssi-fellowship-2022) to know more about my fellowship plans.
 
-I would also like to thank all the people at [OpenMined](https://www.openmined.org) for all the encouragement and support with the preparation of this tutorial.
+Public shout out all the people at [OpenMined](https://www.openmined.org) for all the encouragement and support with the preparation of this tutorial.
 I hope the material in this repository could contribute to raise awareness about all the amazing work on PETs it's being provided to the Open Source and the Python communities.
 
-![SSI Logo](./logos/ssi_logo_small.png "Software Sustainability Institute")
-![JGI Logo](./logos/jgi-logo_small.png "Jean Golding Institute of Data Science")
-![UoB Logo](./logos/uob_logo_small.png "University of Bristol")
+![Anaconda Logo](./logos/anaconda_logo_small.png "Anaconda")
 ![OpenMined](./logos/openmined_logo_small.png "OpenMined")
 
 ## Contacts
 
-For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-tutorial/issues) in the repository, or drop me an email @ `valerio.maggio_at_gmail_dot_com`
+For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-tutorial/issues) in the repository, or drop me an email @ `valerio.maggio_at_anaconda_dot_com`
