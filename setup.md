@@ -62,6 +62,8 @@ pip install -f ppml_requirements.txt
 
 ### Well Done! 🎉
 
+## Test your Environment
+
 If those steps above completed successfully, you should be ready to proceed with **testing the environment**.
 
 To do so, you could run the `Get-Ready.ipynb` notebook to check that everything works properly on your end:
@@ -69,3 +71,6 @@ To do so, you could run the `Get-Ready.ipynb` notebook to check that everything 
 ```bash
 jupyter notebook Get-Ready.ipynb
 ```
+
+You can also link on the following badge [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2FGet-Ready.ipynb)
+to open the `Get-Ready.ipynb` notebook directly in Anaconda Notebooks to check and get ready for the tutorial.
