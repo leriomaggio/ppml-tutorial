@@ -13,19 +13,25 @@ Thank you! 🙏
 
 ## Set up the Environment
 
+If you decided to give [Anaconda Notebooks](https://nb.anaconda.cloud) a go, you can skip
+this section entirely, and just jump to the [Test Your Environment](#test-your-environment) Section.
 
-**Note**: All the instructions reported in this section will assume the use of the **Terminal**
-and of a command-line interface to run all the commands. Similarly, one could use
-[GitHub Desktop](https://desktop.github.com/) and
+**Before we start**:
+
+All the instructions reported below will consider the **Terminal**
+and hence the command-line interface to run all the commands.
+Similarly, one could use alternatively [GitHub Desktop](https://desktop.github.com/) and
 [Anaconda Navigator](https://docs.anaconda.com/free/navigator/index.html) to interact with
-GitHub repositories, and conda environment.
+GitHub repositories, and conda environment, respectively.
 
-First thing, let's download or `git clone` the current repository on your local computer.
+If you haven't already, let's download (or `git clone`) the current repository on your local computer.
 
 ```bash
 git clone https://github.com/leriomaggio/ppml-tutorial
 cd ppml-tutorial
 ```
+
+**Setup the environment**:
 
 The repository contains an `environment.yml` file that can be used to automatically recreate the
 conda environment with all the required packages:
@@ -64,13 +70,14 @@ pip install -f ppml_requirements.txt
 
 ## Test your Environment
 
-If those steps above completed successfully, you should be ready to proceed with **testing the environment**.
+If you're using Anaconda Notebooks, click on the following badge [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2FGet-Ready.ipynb)
+to open the `Get-Ready.ipynb` notebook on [anaconda.cloud](https://anaconda.cloud) and check your environment.
 
-To do so, you could run the `Get-Ready.ipynb` notebook to check that everything works properly on your end:
+If you followed all the steps reported in the previous section to setup your local machine, you should be ready to 
+proceed with **testing your environment**.
+
+To do so, please open the `Get-Ready.ipynb` notebook to check that everything works properly on your end:
 
 ```bash
 jupyter notebook Get-Ready.ipynb
 ```
-
-You can also link on the following badge [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2FGet-Ready.ipynb)
-to open the `Get-Ready.ipynb` notebook directly in Anaconda Notebooks to check and get ready for the tutorial.
