@@ -45,11 +45,17 @@ so executing everything on your laptop should be more than ok 😊.
 Please refer to the [`setup.md`](./setup.md) document for a step-by-step guide on how to set up the environment,
 and to check that all is working.
 
-**Alternatively** you could use [**Anaconda Notebooks**](https://nb.anaconda.cloud) to run all the notebooks interactively, and without install anything on your laptop. All notebooks are self-contained: any specific package that is not already part of [**Anaconda Distribution**](https://www.anaconda.com/download) can be installed directly from the notebook. 
-    All you need, is to just create [your account](https://www.anaconda.com/code-in-the-cloud)
+**Alternatively** you could use [**Anaconda Notebooks**](https://nb.anaconda.cloud) to run all the notebooks interactively, and without install anything on your laptop. 
 
-To make your life easier, all the notebooks listed in the table of content will include a badge [!Open in Anaconda Notebook Badge](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)
-to automatically import and open a notebook on [Anaconda.cloud](https://anaconda.cloud).
+All notebooks in this tutorial are self-contained: any specific package that is not already part of [**Anaconda Distribution**](https://www.anaconda.com/download) can be installed directly from the notebook.
+
+All you'd need is just sign up to get your [account](https://www.anaconda.com/code-in-the-cloud)
+
+**Note**: All the notebooks that will be listed in the TOC will include a badge [!Open in Anaconda Notebook Badge](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)
+to automatically import and open the notebook on [Anaconda.cloud](https://anaconda.cloud).
+
+Anaconda Notebook badges have been generated using the [Anaconda Badge Generator](https://37c8e61f-8cf6-4517-9652-2483b9db9016.pyscriptapps.com/9ab91dd1-e932-4f04-8255-8a2c01732b6b/latest/)
+app on [PyScript.com](https://pyscript.com).
 
 ## Colophon
 
