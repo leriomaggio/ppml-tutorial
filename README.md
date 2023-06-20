@@ -52,7 +52,10 @@ All notebooks in this tutorial are self-contained: any specific package that is 
 All you'd need is just sign up to get your [account](https://www.anaconda.com/code-in-the-cloud)
 
 **Note**: All the notebooks that will be listed in the TOC will include a badge [!Open in Anaconda Notebook Badge](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)
-to automatically import and open a notebook on [Anaconda.cloud](https://anaconda.cloud).
+to automatically import and open the notebook on [Anaconda.cloud](https://anaconda.cloud).
+
+Anaconda Notebook badges have been generated using the [Anaconda Badge Generator](https://37c8e61f-8cf6-4517-9652-2483b9db9016.pyscriptapps.com/9ab91dd1-e932-4f04-8255-8a2c01732b6b/latest/)
+app on [PyScript.com](https://pyscript.com).
 
 ## Colophon
 
