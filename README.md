@@ -2,14 +2,6 @@
 
 Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD8-1) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [SciPy 2023](https://www.scipy2023.scipy.org/)
 
-- [Abstract](#abstract)
-    - [Outline](#outline)
-- [Get the Material](#get-the-material)
-    - [Set up the Environment](#set-up-your-environment)
-- [Colophon](#colophon)
-    - [Acknowledgments and Fundings](#acknowledgment-and-funding)
-- [Contacts](#contacts)
-
 ## Intro
 
 Privacy guarantee is **the** most crucial requirement when it comes to analyse sensitive data.
