@@ -1,6 +1,6 @@
 # PPML: Machine Learning on Data you cannot see
 
-Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD8-1) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [Mozilla Festival 2023](https://www.mozillafestival.org/)
+Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD8-1) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [SciPy 2023](https://www.scipy2023.scipy.org/)
 
 - [Abstract](#abstract)
     - [Outline](#outline)
@@ -10,31 +10,20 @@ Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD
     - [Acknowledgments and Fundings](#acknowledgment-and-funding)
 - [Contacts](#contacts)
 
-## Abstract
+## Intro
 
-Privacy guarantees are one of the most crucial requirements when it comes to analyse sensitive information. However, data anonymisation techniques alone do not always provide complete privacy protection; moreover Machine Learning (ML) models could also be exploited to _leak_ sensitive data when _attacked_ and no counter-measure is put in place.  
-
-*Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all those issues, allowing to train machine learning models with full privacy guarantees.
-
-This workshop will be mainly organised in **two parts**. In the first part, we will explore one example of ML model exploitation (i.e. _inference attack_ ) to reconstruct original data from a trained model, and we will then see how **differential privacy** can help us protecting the privacy of our model, with _minimum disruption_ to the original pipeline. In the second part of the workshop, we will examine a more complicated ML scenario to train Deep learning networks on encrypted data, with specialised _distributed federated_ _learning_ strategies.
+Privacy guarantee is **the** most crucial requirement when it comes to analyse sensitive data.
+However, data anonymisation techniques alone do not always provide complete privacy protection;
+moreover Machine Learning models could also be exploited to _leak_ sensitive data when _attacked_,
+and no counter-measure is applied.
+*Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all these issues,
+allowing to train machine learning models with full privacy guarantees. In this tutorial we will explore
+several methods for privacy-preserving data analysis, and how these techniques can be used to safely train
+ML models _without_ actually seeing the data.
 
 ### Outline
 
-- **Introduction**: Brief Intro to `PPML` and to the workshop ([slides](https://speakerdeck.com/leriomaggio/ppml-jgi))
-
-- **Part 1**: Strengthening Deep Neural Networks
-    - Model vulnerabilities: 
-        - Adversarial Examples and `FGSM` (_Fast Gradient Sign Method_) [notebook](1-fast-gradient-sign-method/FSGM Attack.ipynb)
-        - Model _Inference attack_ notebooks: [training](2-mia-differential-privacy/1-MIA-Training.ipynb) | [reconstruction](2-mia-differential-privacy/2-MIA-Reconstruction.ipynb)
-    - Deep Learning with Differential Privacy
-        - Model _Inference attack_ with `OPACUS`  notebooks: [training](2-mia-differential-privacy/4-MIA-Training-OPACUS.ipynb) | [reconstruction](2-mia-differential-privacy/5-MIA-Reconstruction-OPACUS.ipynb)
-
-- **Part 2**: Primer on Privacy-Preserving Machine Learning
-    - Introduction to Federated Learning [notebook](./3-federated-learning/1-Intro-Federated-Learning.ipynb)
-    - DL training on (Homomorphically) Encrypted Data [notebook](./3-federated-learning/2-Homomorphic-Encryption.ipynb)
-    - OpenMined and PrivateAI series [notebook](./3-federated-learning/3-OpenMined-private-AI-series.ipynb)
-        - Introduction to Remote Data Science [notebooks](./3-federated-learning/duet_iris_classifier/)
-        - SplitNN [notebooks](./3-federated-learning/duet_splitnn/)
+TBD
 
 ## Get the material
 
@@ -51,31 +40,30 @@ git clone https://github.com/leriomaggio/ppml-tutorial.git
 cd ppml-tutorial
 ```
 
-Well done! Now you should do be in the right location. 
+Well done! Now you should do be in the right location.
 Bear with me for another few seconds, following instructions reported below 🙏
 
-### Set up your Environment
+### Installation Instructions
 
-There are indeed two (possibly _three_) methods that you could use to execute the code in the notebooks.
+All the materials in this tutorial (code and lecture notes) are available as Jupyter notebooks.
 
-The **recommended** method is to setup a new `ppml` Python environment on your local machine.
+There is no specific (hardware) requirement to execute all the code on your computer,
+so executing everything on your laptop should be more than ok 😊.
 
-Please refer to the [`setup.md`](./setup.md) document for a step-by-step guide on how to set up the environment, and to check that all is working.
+Please refer to the [`setup.md`](./setup.md) document for a step-by-step guide on how to set up the environment,
+and to check that all is working.
 
-**Alternartively** you could rely on services such as [MyBinder](https://mybinder.org) or [Google Colab](https://colab.research.google.com) to run the notebooks interactively, and without needing to install anything.
+**Alternatively** you could use [**Anaconda Notebooks**](https://nb.anaconda.cloud) to run all the notebooks interactively, and without install anything on your laptop. All notebooks are self-contained: any specific package that is not already part of [**Anaconda Distribution**](https://www.anaconda.com/download) can be installed directly from the notebook. 
+    All you need, is to just create [your account](https://www.anaconda.com/code-in-the-cloud)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leriomaggio/ppml-tutorial/HEAD) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/leriomaggio/ppml-tutorial/blob/main/index.ipynb)
-
-However, these alternative solutions come with some **caveats and workarounds** that should be considered:
-
-1. MyBinder does not support connection to remote hosts on (not-allowed) network ports. This means that all the examples in Sec. 3 running `syft` and `duet` will **never** work.
-    - I would recommend running those notebooks in `Colab` in case.
-2. To use Google Colab it is necessary to have a **Google Account**. Plus, the environment cannot be setup automatically so sometimes additional deps and packages should be installed first
-    - On this note, please consider that notebooks requiring additional dependencies contain instructions to do so, in their preamble section.
+To make your life easier, all the notebooks listed in the table of content will include a badge [!Open in Anaconda Notebook Badge](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)
+to automatically import and open a notebook on [Anaconda.cloud](https://anaconda.cloud).
 
 ## Colophon
 
-**Author**: Valerio Maggio ([`@leriomaggio`](https://twitter.com/leriomaggio)), Senior Research Associate, University of Bristol. 
+**Author**: Valerio Maggio ([`@leriomaggio`](https://twitter.com/leriomaggio)),
+Researcher, [SSI Fellow](https://www.software.ac.uk/about/fellows/valerio-maggio),
+and Data Scientist Advocate at Anaconda.
 
 All the **Code** material is distributed under the terms of the Apache License. See [LICENSE](./LICENSE) file for additional details.
 
@@ -109,11 +97,11 @@ anything the license permits.
 
 ### Acknowledgment and funding
 
-The material developed in this tutorial has been supported by Anaconda, the University of Bristol, and by the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enchancing Technologies).
+The material developed in this tutorial has been supported by Anaconda, and the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enhancing Technologies).
 
 Please see this [deck](https://speakerdeck.com/leriomaggio/privacy-enhancing-data-science-ssi-fellowship-2022) to know more about my fellowship plans.
 
-Public shout out all the people at [OpenMined](https://www.openmined.org) for all the encouragement and support with the preparation of this tutorial.
+Public shout out to all the people at [OpenMined](https://www.openmined.org) for all the encouragement and support with the preparation of this tutorial.
 I hope the material in this repository could contribute to raise awareness about all the amazing work on PETs it's being provided to the Open Source and the Python communities.
 
 ![Anaconda Logo](./logos/anaconda_logo_small.png "Anaconda")
@@ -121,4 +109,4 @@ I hope the material in this repository could contribute to raise awareness about
 
 ## Contacts
 
-For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-tutorial/issues) in the repository, or drop me an email @ `valerio.maggio_at_anaconda_dot_com`
+For any questions or doubts, feel free to open an [issue](https://github.com/leriomaggio/ppml-tutorial/issues) in the repository, or drop me an email @ `vmaggio_at_anaconda_dot_com`
