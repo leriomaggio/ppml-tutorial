@@ -96,7 +96,7 @@ All you'd need is just sign up to get your [account](https://www.anaconda.com/co
 All the notebooks listed in the TOC include a special badge ![Open in Anaconda Notebook Badge](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)
 to automatically import, and open the notebook on [Anaconda.cloud](https://anaconda.cloud).
 
-⚠️ **Please** only make sure to select the right iPython kernel (dated `2023-07`): `anaconda-panel-2023.07-py310`
+⚠️ **Please** only make sure to select the `scipy-tutorials-2023` iPython kernel.
 
 Anaconda Notebook badges can be generated for your notebooks using the [Anaconda Badge Generator](https://leriomaggio.pyscriptapps.com/anaconda-notebook-badge-generator/)
 app on [PyScript.com](https://pyscript.com).
