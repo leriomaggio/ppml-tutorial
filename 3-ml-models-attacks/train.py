@@ -38,7 +38,8 @@ def train(
         model_name = model.__class__.__name__.lower()
 
     train_loader, test_loader = loaders
-    device = th.device("cuda" if th.cuda.is_available() else "cpu")
+    device = th.device("cuda" if th.cuda.is_available() else "mps" if th.backends.mps.is_available() else "cpu")
+    print(f"Using {device} Device")
     # move model to the selected device, in case
     model = model.to(device)
     # both models uses LogSoftmax already! So NLLLoss is what we need
