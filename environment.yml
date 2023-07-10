@@ -20,6 +20,7 @@ dependencies:
   - grpcio>=1.48,<1.52
   - pip:
       - opacus>=1.4
+      - pydantic>=1.10
       - flwr[simulation]==1.4.0
       - notexbook-theme==2.0.1
       - phe==1.5.0
