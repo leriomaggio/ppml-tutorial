@@ -82,7 +82,8 @@ The tutorial is organised in four parts (more or less 1h each):
     - Homomorphic Encryption [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F4-federated-learning%2F2-Homomorphic-Encryption.ipynb)
 
 
-    - Flower FL: 
+    - Flower FL [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F4-federated-learning%2F4-flower-tutorial-pytorch.ipynb)
+
 
 
 ## Get the material
