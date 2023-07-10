@@ -49,6 +49,9 @@ This workshop will be mainly organised in **three** main parts. In the first par
 
 Quick access to each notebooks, also to open on **Anaconda Notebooks**
 
+**SPECIAL CODE**: Use the Code `SCIPY23` to get special access to 30-days free trial to the
+[**Starter Tier**](https://www.anaconda.com/pricing/individuals) (_valid until August 18th, 2023_).
+
 1 Data Anonimisation
   - References: [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F1-data-anonimisation%2F1-references.ipynb)
   
