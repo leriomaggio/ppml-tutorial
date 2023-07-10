@@ -36,10 +36,16 @@ cd ppml-tutorial
 The repository contains an `environment.yml` file that can be used to automatically recreate the
 conda environment with all the required packages:
 
-
+👉 non-Mac Silicon users
 ```bash
 conda env create -f environment.yml
 ```
+👉 Mac Silicon users only:
+Not all libraries might be available for Mac Silicon. Adding a prefix allows to to create a conda environment on Intel libs.
+```bash
+CONDA_SUBDIR=osx-64 conda env create -f environment.yml
+```
+
 
 Once this is complete, you should now have a new conda environment named `ppml`.
 To double check that you can run the following command:
