@@ -15,7 +15,24 @@ ML models _without_ actually seeing the data.
 
 ### Outline
 
-TBD
+The tutorial is organised in four parts (more or less 1h each):
+
+- Introduction: overview and objectives
+1. Sensitive Data and Anonymisation techniques:
+  - quasi-identifiers
+  - k-anonimity
+
+2. Introduction to Differential Privacy
+
+3. ML Model attacks
+  - Adversarial and FSGM
+  - Membership Inference Attack
+  - Differential Privacy for ML Models
+
+4. Federated Learning
+  - Intro to FL
+  - Homomorphic Encryption & FL
+
 
 ## Get the material
 
@@ -35,27 +52,37 @@ cd ppml-tutorial
 Well done! Now you should do be in the right location.
 Bear with me for another few seconds, following instructions reported below 🙏
 
-### Installation Instructions
+## Installation Instructions (or not 🙃)
 
-All the materials in this tutorial (code and lecture notes) are available as Jupyter notebooks.
+All the materials in this tutorial (code, and lecture notes) are made available as
+Jupyter notebooks.
 
-There is no specific (hardware) requirement to execute all the code on your computer,
-so executing everything on your laptop should be more than ok 😊.
+**(1)** There is no specific _hardware requirement_ to execute the code, i.e. running everything
+on your laptop should be more than fine 😊.
 
-Please refer to the [`setup.md`](./setup.md) document for a step-by-step guide on how to set up the environment,
-and to check that all is working.
+**(2)**: As for the _software requirements_, we will be using a pretty standard Python/PyData stack:
+`numpy`, `pandas`, `matplotlib`, and `scikit-learn` for all the data science and Machine learning parts,
+along with `pytorch` and `torchvision` to work on the Deep Learning examples.
 
-**Alternatively** you could use [**Anaconda Notebooks**](https://nb.anaconda.cloud) to run all the notebooks interactively, and without install anything on your laptop. 
+Moreover, a few **extra** / specialised packages will be also featured:
+- [Opacus](https://opacus.ai): A library to train PyTorch models with differential privacy
+- [PHE](https://pypi.org/project/phe/): A Python 3 library implementing the Paillier Partially Homomorphic Encryption
+- [Flower](https://flower.dev): A Federated Learning library for PyTorch
 
-All notebooks in this tutorial are self-contained: any specific package that is not already part of [**Anaconda Distribution**](https://www.anaconda.com/download) can be installed directly from the notebook.
 
-All you'd need is just sign up to get your [account](https://www.anaconda.com/code-in-the-cloud)
+To get ready to run the code in this tutorial you could either (a) install and configure a (`conda`) environment
+on your computer with all the necessary dependency; or (b) use [**Anaconda Notebooks**](https://nb.anaconda.cloud)
+and run everything without installing anything at all on your computer.
 
-**Note**: All the notebooks that will be listed in the TOC will include a badge ![Open in Anaconda Notebook Badge](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)
-to automatically import and open the notebook on [Anaconda.cloud](https://anaconda.cloud).
+Please refer to the [`setup.md`](./setup.md) document for step-by-step instructions, or to get a special
+**discount code** to access Anaconda Notebooks.
 
-Anaconda Notebook badges have been generated using the [Anaconda Badge Generator](https://37c8e61f-8cf6-4517-9652-2483b9db9016.pyscriptapps.com/9ab91dd1-e932-4f04-8255-8a2c01732b6b/latest/)
-app on [PyScript.com](https://pyscript.com).
+If you spot any error/mistake, please feel free to reach out directly to [me](mailto:vmaggio@anaconda.com?subject=PPML%20SciPy23%20Issue), or to open an [Issue](http://github.com/leriomaggio/ppml-tutorial/issues)
+on the repository.
+
+Any feedback will be very much appreciated!
+
+Thank you! 🙏
 
 ## Colophon
 
