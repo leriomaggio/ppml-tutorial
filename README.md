@@ -13,28 +13,41 @@ allowing to train machine learning models with full privacy guarantees. In this 
 several methods for privacy-preserving data analysis, and how these techniques can be used to safely train
 ML models _without_ actually seeing the data.
 
+### Description
+
+Privacy guarantees are **the** most crucial requirement when it comes to analyse sensitive data. These requirements could be sometimes very stringent, so that it becomes a real barrier for the entire pipeline. Reasons for this are manifold, and involve the fact that data could not be _shared_ nor moved from their silos of resident, let alone analysed in their _raw_ form. As a result, _data anonymisation techniques_ are sometimes used to generate a sanitised version of the original data. However, these techniques alone are not enough to guarantee that privacy will be completely preserved. Moreover, the _memoisation_ effect of Deep learning  models could be maliciously exploited to _attack_ the models, and _reconstruct_  sensitive information about samples used in training, even if these information were not originally provided. 
+
+*Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all those issues, allowing to train machine learning models with full privacy guarantees.
+
+This workshop will be mainly organised in **three** main parts. In the first part, we will introduce the main concepts of **differential privacy**: what is it, and how this method differs from more classical _anonymisation_ techniques (e.g. `k-anonymity`).  In the second part, we will focus on Machine learning experiments. We will start by demonstrating how DL models could be exploited (i.e. _inference attack_ ) to reconstruct original data solely analysing models predictions; and then we will explore how **differential privacy** can help us protecting the privacy of our model, with _minimum disruption_ to the original pipeline. Finally, we will conclude the tutorial considering more complex ML scenarios to train Deep learning networks on encrypted data, with specialised _distributed federated_ _learning_ strategies.
+
 ### Outline
 
-The tutorial is organised in four parts (more or less 1h each):
+- **Introduction**: Brief Intro to `PPML` and to the workshop (`10 mins`) [SLIDES](https://speakerdeck.com/leriomaggio/ppml-scipy)
 
-- Introduction: overview and objectives
-1. Sensitive Data and Anonymisation techniques:
-  - quasi-identifiers
-  - k-anonimity
+- **Part 1**: Programming Privacy (`90 mins`)
+  - De-identification
+  - K-anonimity and limitations
+  - Differential Privacy
+  - Intro to Differential Privacy for Machine Learning
 
-2. Introduction to Differential Privacy
+- Break (`10 mins`)
 
-3. ML Model attacks
-  - Adversarial and FSGM
-  - Membership Inference Attack
-  - Differential Privacy for ML Models
+- **Part 2**: Strengthening Deep Neural Networks (`60 mins`)
+  - ML Model vulnerabilities: Adversarial Examples and _inference attack_
+  - DL training with Differential Privacy
 
-4. Federated Learning
-  - Intro to FL
-  - Homomorphic Encryption & FL
+- **Break** (`5 mins`)
 
+- **Part 3**: Primer on Privacy-Preserving Machine Learning (`60 mins`)
+  - DL training on (Homomorphically) Encrypted Data
+  - Federated Learning
 
-#### Notebooks:
+- **Closing Remarks** (`5 mins`)
+
+#### Notebooks
+
+Quick access to each notebooks, also to open on **Anaconda Notebooks**
 
 1 Data Anonimisation
   - References: [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F1-data-anonimisation%2F1-references.ipynb)
@@ -81,8 +94,6 @@ The tutorial is organised in four parts (more or less 1h each):
 
 
 - Flower FL [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F4-federated-learning%2F4-flower-tutorial-pytorch.ipynb)
-
-
 
 ## Get the material
 
