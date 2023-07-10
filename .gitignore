@@ -3,7 +3,7 @@
 # any dataset folder is ignored
 */data/
 data/
-checkpoints/
+# checkpoints/  # re-established
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
