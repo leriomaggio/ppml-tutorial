@@ -157,7 +157,7 @@ and Data Scientist Advocate at Anaconda.
 All the **Code** material is distributed under the terms of the Apache License. See [LICENSE](./LICENSE) file for additional details.
 
 All the instructional materials in this repository are free to use, and made available under the [Creative Commons Attribution
-license][https://creativecommons.org/licenses/by/4.0/]. The following is a human-readable summary of (and not a substitute for) the [full legal text of the CC BY 4.0
+license](https://creativecommons.org/licenses/by/4.0/). The following is a human-readable summary of (and not a substitute for) the [full legal text of the CC BY 4.0
 license](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 You are free:
@@ -172,21 +172,20 @@ license terms.
 
 Under the following terms:
 
-* **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © Software
-  Carpentry and, where practical, linking to
-  http://software-carpentry.org/), provide a [link to the
-  license][cc-by-human], and indicate if changes were made. You may do
-  so in any reasonable manner, but not in any way that suggests the
+* **Attribution** --- You must give appropriate credit, and provide a link to the
+  [LICENSE](https://github.com/leriomaggio/ppml-tutorial/LICENSE) [`cc-by-human`](https://creativecommons.org/licenses/by/4.0/),
+  and indicate if changes were made.
+  You may do so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.
-
-**No additional restrictions**---You may not apply legal terms or
+  
+* **No additional restrictions** --- You may not apply legal terms or
 technological measures that legally restrict others from doing
 anything the license permits.
 
 ### Acknowledgment and funding
 
-The material developed in this tutorial has been supported by Anaconda, and the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enhancing Technologies).
+The material developed in this tutorial has been supported by Anaconda, and the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my 
+[SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enhancing Technologies).
 
 Please see this [deck](https://speakerdeck.com/leriomaggio/privacy-enhancing-data-science-ssi-fellowship-2022) to know more about my fellowship plans.
 
