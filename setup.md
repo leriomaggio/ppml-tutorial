@@ -112,5 +112,5 @@ proceed with **testing your environment**.
 To do so, please open the `Get-Ready.ipynb` notebook to check that everything works properly on your end:
 
 ```bash
-jupyter notebook Get-Ready.ipynb
+jupyter lab Get-Ready.ipynb
 ```
