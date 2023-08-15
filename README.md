@@ -1,17 +1,12 @@
 # PPML: Machine Learning on Data you cannot see
 
-Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD8-1) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [SciPy 2023](https://www.scipy2023.scipy.org/)
+Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD8-1) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [EuroSciPy 2023](https://www.euroscipy.org/2023)
+
+**Note**: An extended version of this tutorial - as presented at [SciPy 2023](https://www.scipy2023.scipy.org/) - is available [here](https://github.com/leriomaggio/ppml-tutorial/tree/scipy-23).
 
 ## Intro
 
-Privacy guarantee is **the** most crucial requirement when it comes to analyse sensitive data.
-However, data anonymisation techniques alone do not always provide complete privacy protection;
-moreover Machine Learning models could also be exploited to _leak_ sensitive data when _attacked_,
-and no counter-measure is applied.
-*Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all these issues,
-allowing to train machine learning models with full privacy guarantees. In this tutorial we will explore
-several methods for privacy-preserving data analysis, and how these techniques can be used to safely train
-ML models _without_ actually seeing the data.
+Privacy guarantee is **the** most crucial requirement when it comes to analyse sensitive data. However, data anonymisation techniques alone do not always provide complete privacy protection; moreover Machine Learning models could also be exploited to _leak_ sensitive data when _attacked_, and no counter-measure is applied. *Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all these issues, allowing to train machine learning models with full privacy guarantees. In this tutorial we will explore several methods for privacy-preserving data analysis, and how these techniques can be used to safely train ML models _without_ actually seeing the data.  
 
 ### Description
 
@@ -19,27 +14,21 @@ Privacy guarantees are **the** most crucial requirement when it comes to analyse
 
 *Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all those issues, allowing to train machine learning models with full privacy guarantees.
 
-This workshop will be mainly organised in **three** main parts. In the first part, we will introduce the main concepts of **differential privacy**: what is it, and how this method differs from more classical _anonymisation_ techniques (e.g. `k-anonymity`).  In the second part, we will focus on Machine learning experiments. We will start by demonstrating how DL models could be exploited (i.e. _inference attack_ ) to reconstruct original data solely analysing models predictions; and then we will explore how **differential privacy** can help us protecting the privacy of our model, with _minimum disruption_ to the original pipeline. Finally, we will conclude the tutorial considering more complex ML scenarios to train Deep learning networks on encrypted data, with specialised _distributed federated_ _learning_ strategies.
+This workshop will be mainly organised in **two** main parts. In the first part,  we will focus on Machine learning demonstrating how DL models could be exploited (i.e. _inference attack_ ) to reconstruct original data solely analysing models predictions; and then we will explore how **differential privacy** can help us protecting the privacy of our model, with _minimum disruption_ to the original pipeline. 
+
+In the second part we will considering more complex ML scenarios to train Deep learning networks on encrypted data, with specialised **distributed federated learning** strategies.
 
 ### Outline
 
-- **Introduction**: Brief Intro to `PPML` and to the workshop (`10 mins`) [SLIDES](https://speakerdeck.com/leriomaggio/ppml-scipy)
+- **Introduction**: Brief Intro to `PPML` and to the workshop (`15 mins`) [SLIDES](https://speakerdeck.com/leriomaggio/ppml-scipy)
 
-- **Part 1**: Programming Privacy (`90 mins`)
-  - De-identification
-  - K-anonimity and limitations
-  - Differential Privacy
-  - Intro to Differential Privacy for Machine Learning
-
-- Break (`10 mins`)
-
-- **Part 2**: Strengthening Deep Neural Networks (`60 mins`)
+- **Part 1**: Strengthening Deep Neural Networks (`30 mins`)
   - ML Model vulnerabilities: Adversarial Examples and _inference attack_
   - DL training with Differential Privacy
 
 - **Break** (`5 mins`)
 
-- **Part 3**: Primer on Privacy-Preserving Machine Learning (`60 mins`)
+- **Part 2**: Primer on Privacy-Preserving Machine Learning (`35 mins`)
   - DL training on (Homomorphically) Encrypted Data
   - Federated Learning
 
@@ -52,28 +41,7 @@ Quick access to each notebooks, also to open on **Anaconda Notebooks**
 **SPECIAL CODE**: Use the Code `SCIPY23` to get special access to 30-days free trial to the
 [**Starter Tier**](https://www.anaconda.com/pricing/individuals) (_valid until August 18th, 2023_).
 
-1 Data Anonimisation
-  - References: [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F1-data-anonimisation%2F1-references.ipynb)
-  
-  - De-identification: [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F1-data-anonimisation%2F2-de-identification.ipynb)
-
-  - K-Anonimity: [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F1-data-anonimisation%2F3-k-anonimity.ipynb)
-
-2 Differential Privacy
-
-  - Differential Privacy [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F2-differential-privacy%2F1-differential-privacy.ipynb)
-
-
-  - Properties of Differential Privacy [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F2-differential-privacy%2F2-properties-differential-privacy.ipynb)
-
-
-  - Approx Differential Privacy [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F2-differential-privacy%2F3-approx-differential-privacy.ipynb)
-
-
-  - Differential Privacy ML Models [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F2-differential-privacy%2F4-differential-privacy-ml.ipynb)
-
-
-3 ML Models Attacks
+1 ML Models Attacks
 
 - FSGM Attack [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F3-ml-models-attacks%2F0-FSGM-Attack.ipynb)
 
@@ -81,20 +49,16 @@ Quick access to each notebooks, also to open on **Anaconda Notebooks**
 
 - MIA Reconstruction [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F3-ml-models-attacks%2F2-MIA-Reconstruction.ipynb)
 
-
 - MIA Training with DP [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F3-ml-models-attacks%2F4-MIA-Training-OPACUS.ipynb)
-
 
 - MIA Reconstruction with DP [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F3-ml-models-attacks%2F5-MIA-Reconstruction-OPACUS.ipynb)
 
 
-4 Federated Learning
+2 Federated Learning
 
 - Intro to Federated Learning [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F4-federated-learning%2F1-Intro-Federated-Learning.ipynb)
 
-
 - Homomorphic Encryption [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F4-federated-learning%2F2-Homomorphic-Encryption.ipynb)
-
 
 - Flower FL [![open_in_anaconda](https://static.anaconda.cloud/content/a22d04e8445b700f28937ab3231b8cded505d0395c63b7a269696722196d5415)](https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fraw.githubusercontent.com%2Fleriomaggio%2Fppml-tutorial%2Fmain%2F4-federated-learning%2F4-flower-tutorial-pytorch.ipynb)
 
@@ -104,7 +68,7 @@ Clone the current repository by running the following instructions:
 
 ```bash
 cd $HOME  # This will make sure you'll be in your HOME folder
-git clone https://github.com/leriomaggio/ppml-tutorial.git
+git clone https://github.com/leriomaggio/ppml-tutorial.git -b euroscipy-23
 ```
 
 **Note**: This will create a new folder named `ppml-tutorial`. Move into this folder by typing:

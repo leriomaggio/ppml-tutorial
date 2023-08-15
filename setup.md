@@ -42,7 +42,7 @@ GitHub repositories, and conda environment, respectively.
 If you haven't already, let's download (or `git clone`) the current repository on your local computer.
 
 ```bash
-git clone https://github.com/leriomaggio/ppml-tutorial
+git clone https://github.com/leriomaggio/ppml-tutorial -b euroscipy23
 cd ppml-tutorial
 ```
 
