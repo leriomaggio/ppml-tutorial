@@ -1,6 +1,6 @@
 # PPML: Machine Learning on Data you cannot see
 
-Repository for the [tutorial](https://schedule.mozillafestival.org/session/3TAPD8-1) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [SciPy 2023](https://www.scipy2023.scipy.org/)
+Repository for the [tutorial](https://2024.pycon.it/en/submission/ryez) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [PyCon Italia 2024](https://2024.pycon.it)
 
 ## Intro
 
@@ -16,7 +16,7 @@ Lastly, we will conclude the tutorial considering more complex ML scenarios to t
 
 ### Outline
 
-- **Introduction**: Brief Intro to `PPML` and to the workshop (`10 mins`)
+- **Introduction**: Brief Intro to `PPML` and to the workshop (`10 mins`) [SLIDES](https://speakerdeck.com/leriomaggio/ppml-pyconit24)
 
 - **Part 1**: Data and ML models Threats (`45 mins`)
   - De-identification
