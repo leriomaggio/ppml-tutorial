@@ -5,7 +5,6 @@ jupyter==1.0.0
 jupyterlab>=3.6
 notebook>=6.5
 opacus>=1.4
-opendp>=0.9.2
 pandas>=1.5
 pillow>=9.4
 pip>=23.1

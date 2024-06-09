@@ -22,14 +22,14 @@ Standard Python Distribution (i.e. [`ppml_requirements.txt`](http://github.com/l
 All the instructions reported below will consider the **Terminal**
 and hence the command-line interface to run all the commands.
 
-Similarly, instructions to recreate the environment will consider using 
+Similarly, instructions to create the Python virtual environment will consider using 
 [`pyenv`](https://github.com/pyenv/pyenv) and [`pyenv-virtualenv`](https://github.com/pyenv/pyenv-virtualenv)
 to download the Python distribution, and install the environment.
 
 If you haven't already, let's download (or `git clone`) the current repository on your local computer.
 
 ```bash
-git clone https://github.com/leriomaggio/ppml-tutorial
+git clone https://github.com/leriomaggio/ppml-tutorial -b mlforum-24
 cd ppml-tutorial
 ```
 
@@ -56,7 +56,7 @@ pyenv virtualenv 3.12 ppml
 This will create a new virtual environment called `ppml`. We now need to **activate** the environment:
 
 ```bash
-pyenv virtualenv activate ppml
+pyenv activate ppml
 ```
 
 **Finally**, you could install all the required packages using `pip`:

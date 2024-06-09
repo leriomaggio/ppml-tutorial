@@ -1,37 +1,37 @@
 # PPML: Machine Learning on Data you cannot see
 
-Repository for the [tutorial](https://2024.pycon.it/en/submission/ryez) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [PyCon Italia 2024](https://2024.pycon.it)
+Repository for the [tutorial](https://budapestml.hu/2024/en/program/workshopok/privacy-preserving-ml/) on **Privacy-Preserving Machine Learning** (`PPML`) presented at [Budapest ML Forum 2024](https://budapestml.hu/2024/en/)
 
 ## Intro
 
-Privacy guarantees are **the** most crucial requirement when it comes to analyse sensitive data. These requirements could be sometimes very stringent, so that it becomes a real barrier for the entire pipeline. Reasons for this are manifold, and involve the fact that data could not be _shared_ nor moved from their silos of resident, let alone analysed in their _raw_ form. As a result, _data anonymisation techniques_ are sometimes used to generate a sanitised version of the original data. However, these techniques alone are not enough to guarantee that privacy will be completely preserved. Moreover, the _memoisation_ effect of Deep learning  models could be maliciously exploited to _attack_ the models, and _reconstruct_  sensitive information about samples used in training, even if these information were not originally provided. 
+In data science, privacy is crucial. As data scientists work with large amounts of personal and sensitive information, protecting this data from misuse and breaches is essential. Safeguarding privacy not only respects individuals' rights and builds trust, but also meets ethical and legal constraints. For instance, there may be limitations imposed on data _usage_ and _sharing_,  enforcing data to not being moved away from their original silos. 
 
-*Privacy-preserving machine learning* (PPML) methods hold the promise to overcome all those issues, allowing to train machine learning models with full privacy guarantees.
+To circumvent those limitations, emerging approaches have been proposed that consider moving the computation directly to where data lives (_rather than doing the opposite_, ed.), enabling a new paragidm of analysis generally referred to as *Remote data science*. Federated Learning (`FL`) is perhaps the most popular one. With FL,  models are trained across multiple decentralized nodes, while keeping data localized. 
 
-This workshop will be mainly organised in **three** main parts. In the first part, we will introduce the main threats to 
-data and machine learning models (e.g. _membership inference attack_ ) for privacy. 
-In the second part, we will work our way towards  **differential privacy**: what is it, and how this method works, and 
-how differential privacy could be used with Machine learning. 
-Lastly, we will conclude the tutorial considering more complex ML scenarios to train Deep learning networks on encrypted data, with specialised _distributed_ settings for **remote analytics**.
+Nonetheless, FL alone is not enough to guarantee that privacy will be completely preserved. In fact, the *_memoisation_* effect of machine learning models could be maliciously exploited to *_attack_* the models, and *_reconstruct_*  sensitive information about training data, even if this information is not originally provided. 
+
+**Privacy-preserving machine learning** (PPML) methods hold the promise to overcome all those issues, allowing to train machine learning models with full privacy guarantees.
+
+This workshop will be organised in *three* main parts. In the first part, we will introduce the main threats to data and machine learning models (e.g. _membership inference attack_ ) for privacy. Then, we will introduce differential privacy (`DP`) , its properties, and how DP can be used with Machine learning. Lastly, we will considering more complex ML scenarios using encrypted data, with specialised *distributed* settings for **remote analytics**.
 
 ### Outline
 
-- **Introduction**: Brief Intro to `PPML` and to the workshop (`10 mins`) [SLIDES](https://speakerdeck.com/leriomaggio/ppml-pyconit24)
+- **Introduction**: Brief Intro to `PPML` and to the workshop
 
-- **Part 1**: Data and ML models Threats (`45 mins`)
+- **Part 1**: Data and ML models Threats
   - De-identification
   - K-anonimity and limitations
   - ML Model vulnerabilities: Adversarial Examples and _inference attack_
 
-- **Part 2**: Short Introduction to Differential Privacy (`45 mins`)
+- **Part 2**: Short Introduction to Differential Privacy
   
   - Intro to Differential Privacy
   - Properties of Differential Privacy
   - DL training with Differential Privacy
 
-- **Break** (`5 mins`)
+- **Break**
 
-- **Part 3**: Primer on Remote Data Science & PySyft (`25 mins`)
+- **Part 3**: Primer on Remote Data Science & PySyft
   - Intro to Federated Learning
   - DL training on (Homomorphically) Encrypted Data
   - Remote Data Science using PySyft
@@ -43,7 +43,7 @@ Clone the current repository by running the following instructions:
 
 ```bash
 cd $HOME  # This will make sure you'll be in your HOME folder
-git clone https://github.com/leriomaggio/ppml-tutorial.git
+git clone https://github.com/leriomaggio/ppml-tutorial.git -b mlforum-24
 ```
 
 **Note**: This will create a new folder named `ppml-tutorial`. Move into this folder by typing:
@@ -86,7 +86,7 @@ Thank you! 🙏
 
 **Author**: Valerio Maggio ([`@leriomaggio`](https://twitter.com/leriomaggio)),
 Researcher, [SSI Fellow](https://www.software.ac.uk/about/fellows/valerio-maggio),
-and Data Scientist Advocate at Anaconda.
+and Education Lead at Open Mined.
 
 All the **Code** material is distributed under the terms of the Apache License. See [LICENSE](./LICENSE) file for additional details.
 
@@ -118,7 +118,7 @@ anything the license permits.
 
 ### Acknowledgment and funding
 
-The material developed in this tutorial has been supported by Anaconda, and the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my 
+The material developed in this tutorial has been supported by the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my 
 [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enhancing Technologies).
 
 Please see this [deck](https://speakerdeck.com/leriomaggio/privacy-enhancing-data-science-ssi-fellowship-2022) to know more about my fellowship plans.
