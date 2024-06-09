@@ -86,7 +86,7 @@ Thank you! 🙏
 
 **Author**: Valerio Maggio ([`@leriomaggio`](https://twitter.com/leriomaggio)),
 Researcher, [SSI Fellow](https://www.software.ac.uk/about/fellows/valerio-maggio),
-and Data Scientist Advocate at Anaconda.
+and Education Lead at Open Mined.
 
 All the **Code** material is distributed under the terms of the Apache License. See [LICENSE](./LICENSE) file for additional details.
 
@@ -118,7 +118,7 @@ anything the license permits.
 
 ### Acknowledgment and funding
 
-The material developed in this tutorial has been supported by Anaconda, and the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my 
+The material developed in this tutorial has been supported by the [Software Sustainability Institute](https://www.software.ac.uk) (SSI), as part of my 
 [SSI fellowship](https://www.software.ac.uk/about/fellows/valerio-maggio) on `PETs` (Privacy Enhancing Technologies).
 
 Please see this [deck](https://speakerdeck.com/leriomaggio/privacy-enhancing-data-science-ssi-fellowship-2022) to know more about my fellowship plans.
